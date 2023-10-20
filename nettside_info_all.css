@@ -1,0 +1,68 @@
+html, body {
+  margin: 60px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  outline: dashed;
+  background-image: url("https://img.freepik.com/premium-photo/grey-abstract-background_427757-34.jpg"); 
+}
+
+.innpakning {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title_boks {
+  width:100%;
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+  border-right:1px solid #979797;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div a:hover {
+  background-color: rgb(167, 163, 163);
+}
+
+label {
+  font-size: 50px;
+}
+
+s {
+  float: right;
+}
+
+legend {
+  float: left;
+}
